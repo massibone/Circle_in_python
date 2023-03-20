@@ -1,6 +1,11 @@
 
+'''
+Circle-circle intersections are one of the simpler intersection tests because circle are so symmetrical. 
+The test is just a matter of finding the distance between the centres of the two circles 
+and seeing whether it's less than or equal to the sum of their 'r'
 import math
 import matplotlib.pyplot as plt
+'''
 
 print("Input x1, y1, r1, x2, y2, r2:")
 x1,y1,r1,x2,y2,r2 = 1,1,4,1,1,5#[int(i) for i in input().split()]
